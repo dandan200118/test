@@ -1,4 +1,4 @@
-module github.com/bincooo/you.com
+module github.com/dandan200118/test
 
 go 1.21.6
 
