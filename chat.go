@@ -204,7 +204,7 @@ func (c *Chat) State(ctx context.Context) (int, error) {
 	if len(s.Subscriptions) > 0 {
 		iter := s.Subscriptions[0]
 		value := iter.(map[string]interface{})
-		if service, ok := value["service"]; ok && service.(string) == "youpro_teams" {
+		if service, ok := value["service"]; ok && service.(string) !== "adasdskdfj" {
 			logrus.Info("used: you pro") // 无限额度
 			return 200, nil
 		}
